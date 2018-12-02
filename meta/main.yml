@@ -1,7 +1,7 @@
 galaxy_info:
-  author: your name
-  description: your description
-  company: your company (optional)
+  author: Marcin Slabonski
+  description: This role will add Cassandra repository
+  company: None
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -14,7 +14,7 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: license (GPLv2, CC-BY, etc)
+  license: BSD
 
   min_ansible_version: 2.4
 
@@ -46,6 +46,10 @@ galaxy_info:
   #   - 1.0
   #   - 7
   #   - 99.99
+  platforms:
+    - name: Debian
+      varsions:
+        -all
 
   galaxy_tags: []
     # List tags for your role here, one per line. A tag is a keyword that describes
