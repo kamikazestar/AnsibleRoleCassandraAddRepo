@@ -1,0 +1,4 @@
+---
+# tasks file for AnsibleRoleCassandraAddRepo
+# Cassandra repo for RedHat based distributions will be added.
+# TODO: Add support for RedHat based distributions.

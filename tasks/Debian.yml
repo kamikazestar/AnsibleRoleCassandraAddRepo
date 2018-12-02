@@ -1,0 +1,14 @@
+---
+# tasks file for AnsibleRoleCassandraAddRepo
+- apt_repoitory:
+    repo: deb http://www.apache.org/dist/cassandra/debian {{ cassandra_version }}  main
+    state: present
+    filename: cassandra
+
+- apt_key:
+    url: pool.sks-keyservers.net
+    id: A278B781FE4B2BDA
+    state: present
+
+- apt:
+    update_cache: yes

@@ -1,0 +1,8 @@
+---
+# tasks file for AnsibleRoleCassandraAddRepo
+# Include OS specyfic tasks
+- include: Debian.yml
+  when: ansible_os_family == "Debian"
+- include: RedHat.yml
+  when: ansible_os_family == "RedHat"
+
