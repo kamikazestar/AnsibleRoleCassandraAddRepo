@@ -1,5 +1,4 @@
 # AnsibleRoleCassandraAddRepo
-=========
 
 This Ansible role will add repository for the latest Cassandra version.
 
